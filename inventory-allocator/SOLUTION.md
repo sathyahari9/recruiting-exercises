@@ -8,10 +8,10 @@ The class has the following class methods:
 - allocation_result - Formats the output in the form of a list
 
 ### Testing
-The test scenarios are autmatically run, and the result of each test is printed along with the corresponding input file name.
+The test scenarios are autmatically run, and the result of each test is printed along with the corresponding input file name. \n
 To add more tests:
 Input the quantities of each item in the form of a json file.
 - For example, "inventory/testx.json" will contain - {"apple" : 10}
-Similarly, input the inventory present of each item in the inventory folder in this manner: \\
-[{ "name": "owd", "inventory": { "apple": 5 } }, { "name": "dm", "inventory": { "apple": 5 }}] \\
+Similarly, input the inventory present of each item in the inventory folder in this manner: \n
+[{ "name": "owd", "inventory": { "apple": 5 } }, { "name": "dm", "inventory": { "apple": 5 }}] \n
 Make sure to give the same file name for both the quantities and inventory files. For example: "test1.json"
